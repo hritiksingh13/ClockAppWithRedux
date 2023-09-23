@@ -1,0 +1,40 @@
+.alarmItem {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  border: 2px solid rgb(123, 182, 206);
+  border-radius: 20px;
+  box-shadow: rgba(13, 13, 49, 0.25) 0px 13px 27px -5px,
+    rgba(13, 13, 49, 0.3) 0px 8px 16px -8px;
+}
+
+.alarmItem > div > button {
+  background-color: transparent;
+  border: 2px solid rgb(123, 182, 206);
+  color: rgb(123, 182, 206);
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.alarmItem > div {
+  display: flex;
+  gap: 5px;
+}
+
+.alarmItem > div > .deleteItem {
+  padding: 5px 16px !important;
+}
+
+.alarmItem > div > button:hover {
+  color: white;
+  background-color: rgb(123, 182, 206);
+}
+
+.alarm {
+  display: inherit;
+  gap: 10px;
+}

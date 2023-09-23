@@ -1,0 +1,54 @@
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 300px;
+  border: 2px solid rgb(123, 182, 206);
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(63, 132, 160, 0.25) 0px 13px 27px -5px,
+    rgba(63, 132, 160, 0.3) 0px 8px 16px -8px;
+}
+
+.modal-header {
+  padding: 10px;
+}
+
+.modal-footer {
+  padding: 10px;
+  text-align: end;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.setAlarmButton {
+  margin: 10px;
+  padding: 5px;
+  background: transparent;
+  border: none;
+  font-weight: 800;
+  color: rgb(123, 182, 206);
+  cursor: pointer;
+}
+
+.setAlarmButton:hover {
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(123, 182, 206);
+}

@@ -1,0 +1,38 @@
+.dateAndTime {
+  margin-top: 20px;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.alarmList {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.alarmList::-webkit-scrollbar {
+  display: none;
+}
+
+.addAlarm {
+  margin: 25px;
+  padding: 5px 15px;
+  background: rgb(123, 182, 206);
+  border: 1px solid white;
+  color: white;
+  font-size: 25px;
+  border-radius: 50px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.addAlarm:hover {
+  color: rgb(123, 182, 206);
+  border: 1px solid rgb(123, 182, 206);
+  background-color: white;
+}

@@ -1,0 +1,43 @@
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.timer {
+  margin-top: 20px;
+  height: 50%;
+  font-size: 40px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.control > button {
+  background-color: transparent;
+  border: 2px solid rgb(123, 182, 206);
+  color: rgb(123, 182, 206);
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+}
+
+.control > button:hover {
+  color: white;
+  background-color: rgb(123, 182, 206);
+}
